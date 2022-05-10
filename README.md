@@ -1,1 +1,1 @@
-# welfaro
+Static website.
