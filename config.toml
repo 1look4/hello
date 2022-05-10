@@ -1,10 +1,4 @@
-# This file is for render site varibles and plugins
-# don't remove this file.
-# The presence of this file is for compatibility with Blogdown and Forestry.
-#
-# The actual configuration files are stored in the `config/_default/` folder.
-
-
+baseURL = "https://1look4.github.io/welfaro/"
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
