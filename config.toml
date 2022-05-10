@@ -1,4 +1,4 @@
-baseURL = "https://1look4.github.io/welfaro/"
+baseURL = "https://1look4.github.io/welfaro"
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
