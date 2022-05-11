@@ -3,7 +3,7 @@
 banner:
   title: "Give a old laptop for the needy."
   button: "Fill the form"
-  button_link: "formlink/"
+  button_link: "https://docs.google.com/forms/d/e/1FAIpQLSfz4xE-2DDPGHBb35whbdrxfBwbc67nTzf-k3XnrBU7kXC6aA/viewform"
   image: "images/banner-app.png"
 
 

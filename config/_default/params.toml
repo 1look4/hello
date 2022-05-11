@@ -53,7 +53,7 @@ preloader = "images/favicon.png" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Fill the form"
-link = "/formurl"
+link = "https://docs.google.com/forms/d/e/1FAIpQLSfz4xE-2DDPGHBb35whbdrxfBwbc67nTzf-k3XnrBU7kXC6aA/viewform"
 
 # cookies
 [cookies]
@@ -68,7 +68,7 @@ enable = true
 title = "Fill the form"
 content = "For any unused electronic asset you have, please contribute to the social cause, by donating it to the needy, there by reducing ewaste."
 button = "Apply"
-button_link = "/formlink/"
+button_link = "https://docs.google.com/forms/d/e/1FAIpQLSfz4xE-2DDPGHBb35whbdrxfBwbc67nTzf-k3XnrBU7kXC6aA/viewform"
 
 ############################# social site ########################
 [[social]]
