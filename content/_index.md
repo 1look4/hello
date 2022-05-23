@@ -73,7 +73,7 @@ intro_checklist:
 
 # how_it_works
 how_it_works:   
-  enable: true
+  enable: false
   block:  
   - subtitle: "Checklist"
     title: "Laptops to be in working conditions"
