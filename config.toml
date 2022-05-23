@@ -1,11 +1,13 @@
-baseURL = "https://1look4.github.io/welfaro"
+baseURL = "https://1look4.github.io/hello"
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
 white = "#ffffff"
 black = "#000000"
-light = "#FAFAFA"
-primary_color = "#FE6019"
+light1 = "#FAFAFA"
+light = "#FEFAF1"
+primary_color1 = "#FE6019"
+primary_color = "#FB7235"
 
 # font variable
 h1 = "48px"

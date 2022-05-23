@@ -5,11 +5,6 @@ url = ""
 weight = 1
 
 [[main]]
-name = "Checklist"
-url = "laptop-checklist/"
-weight = 2
-
-[[main]]
 name = "About"
 url = "about/"
 weight = 3
@@ -23,50 +18,3 @@ weight = 3
 name = "Contact"
 url = "contact/"
 weight = 5
-
-[[main]]
-weight = 6
-name = "More"
-hasChildren = true
-
-  [[main]]
-  parent = "More"
-  #name = "Blog Details"
-  #url = "blog/post-1/"
-  name = "Blog"
-  url = "blog"
-  weight = 1
-
-  [[main]]
-  parent = "More"
-  name = "Privacy policy"
-  url = "terms-and-conditions/"
-  weight = 3
-  
-  [[main]]
-  parent = "More"
-  name = "Terms & Conditions"
-  url = "terms-and-conditions/"
-  weight = 7
-
-
-# footer menu
-[[footer]]
-name = "About"
-url = "about/"
-weight = 1
-
-[[footer]]
-name = "Blog"
-url = "blog/"
-weight = 2
-
-[[footer]]
-name = "Blog Details"
-url = "blog/post-1/"
-weight = 3
-
-[[footer]]
-name = "Terms & Conditions"
-url = "terms-and-conditions/"
-weight = 4

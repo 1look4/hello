@@ -1,6 +1,6 @@
 {{define "main"}}
 
-{{if site.Params.buy_premium_popup}}
+{{if site.Params.on_first_popup}}
 <div class="buy-premium position-fixed fade">
   <div class="block p-4 p-lg-5 bg-white rounded-lg shadow-lg call-to-action has-bg-color">
     <div class="position-relative" style="z-index: 2;">
@@ -72,57 +72,34 @@
         </div>
         {{end}}
 
-        <div class="has-circle">
-          <span class="circle-1 ratio-32" data-rellax-speed="-2"></span>
-          <span class="circle-2 ratio-85 fill" data-rellax-speed="2"></span>
-          <span class="circle-3 ratio-20 fill"></span>
-          <span class="circle-4 ratio-47" data-rellax-speed="1"></span>
-          <span class="circle-5 ratio-62" data-rellax-speed="-1"></span>
-          <span class="circle-6 ratio-20 fill" data-rellax-speed="-0.5"></span>
-          <span class="circle-7 ratio-73" data-rellax-speed="-1"></span>
-          <span class="circle-8 ratio-37" data-rellax-speed="-.5"></span>
-          <span class="circle-9 ratio-20 fill" data-rellax-speed="1"></span>
-          <span class="circle-10 ratio-65 fill" data-rellax-speed="-2"></span>
-        </div>
       </div>
     </div>
   </div>
 </section>
 {{end}}
 
-{{with .Params.brands_carousel}}
-{{if .enable}}
-<section class="overflow-hidden">
+<section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12" data-aos="fade-left">
-        <div class="brand-carousel swiper-container">
-          <div class="swiper-wrapper">
-            {{range .brand_images}}
-            {{ if fileExists (add `assets/` .) }}
-            <div class="swiper-slide">
-              <div class="brand-item">
-                {{$img:= resources.Get . }}
-                {{$img_width := $img.Width }}
+    <div class="row justify-content-center aos-init aos-animate" data-aos="fade-in">
+      <div class="col-lg-8">
 
-                {{$img_orginal := add (add (string $img_width) "x") " " }}
-                {{$img_src := ($img.Resize $img_orginal).RelPermalink }}
+        <p class="lead text-uppercase text-black-200 mb-5">Please check out the below definitions and conditions for donating a laptop.</p>
 
-                {{$imgWebp := add (add (string $img_width) "x") " webp" }}
-                {{$imgWebp_src := ($img.Resize $imgWebp).RelPermalink }}
-                <img loading="lazy" decoding="async" class="img-fluid" width="{{$img_width}}" height="{{$img.Height}}" src="{{$imgWebp_src}}" alt="Brand Image" onerror="this.onerror=null;this.src='{{$img_src}}'">
-              </div>
-            </div>
-            {{end}}
-            {{end}}
-          </div>
+        <div class="content">
+          <h3 id="working-parts">The laptop to be in working condition with below mentioned accessories:</h3>
+			<ul>
+			<li>Screen with no major noticiable scratches.</li>
+			<li>Keyboard with all working keys.</li>
+			<li>Mouse.</li>
+			<li>Battery.</li>
+			<li>Charger.</li>
+			</ul>
+			If you think you have all the above laptop parts and present and in working condition and want to make a generous contributions please fill out the above form for our team to process further.
         </div>
       </div>
     </div>
   </div>
 </section>
-{{end}}
-{{end}}
 
 {{with .Params.features}}
 {{if .enable}}
@@ -161,6 +138,38 @@
       </div>
     </div>
     {{end}}
+  </div>
+</section>
+{{end}}
+{{end}}
+
+{{with .Params.intro_checklist}}
+{{if .enable}}
+<section class="video-popup has-bg-color">
+  <div class="container-xxl">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="block">
+          <div class="section-title text-center" data-aos="fade-up">
+            <p class="text-uppercase">{{.subtitle | markdownify}}</p>
+            <h2 class="title">{{.title | markdownify}}</h2>
+            <p>{{.description | markdownify}}</p>
+          </div>
+        </div>
+        <div class="has-circle has-bg-anim" data-aos="fade-in">
+          <span class="circle-1 ratio-32"></span>
+          <span class="circle-2 ratio-85 fill"></span>
+          <span class="circle-3 ratio-20 fill"></span>
+          <span class="circle-4 ratio-47"></span>
+          <span class="circle-5 ratio-62"></span>
+          <span class="circle-6 ratio-20 fill"></span>
+          <span class="circle-7 ratio-73"></span>
+          <span class="circle-8 ratio-37"></span>
+          <span class="circle-9 ratio-20 fill"></span>
+          <span class="circle-10 ratio-65 fill"></span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 {{end}}

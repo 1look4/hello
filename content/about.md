@@ -14,7 +14,7 @@ who_we_are:
 
 # what_we_do
 what_we_do:
-  enable: true
+  enable: false
   subtitle: "Our Works"
   title: "What We Do"
   block:
@@ -52,8 +52,8 @@ about_video:
 # brands
 brands_carousel:
   enable: true
-  subtitle: "Our Clients"
-  title: "Trusted by Thousands Companies"
+  subtitle: "Members"
+  title: "Trusted by Hundred of companies and Individuals"
   section: "/" # brand images comming form _index.md
 
 
@@ -62,7 +62,7 @@ our_team:
   enable: true
   subtitle: "Our members"
   title: "The People Behind"
-  description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"
+  description: "Founded and Empovered by the Industry visionary.  <br> forming a group to promote giving laptops to Goverment school students who are in need."
   team:
   - name: "Valentin Staykov"
     image: "images/about/team/01.jpg"
@@ -78,25 +78,13 @@ our_team:
 # our office
 our_office:
   enable: true
-  subtitle: "Our Offices"
-  title: "Made with Love Of around the world With Many Offices"
-  description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"
+  subtitle: "Location"
+  title: "Made with Love in Bengaluru"
+  description: "We were freelance designers and developers, constantly finding <br> ou"
   office_locations:
-  - city: "NewYork, USA"
-    country_flag: "images/about/flags/us.png"
-    address_line_one: "219 Bald Hill Drive"
-    address_line_two: "Oakland Gardens, NY 11364"
-  - city: "Australia, Perth"
-    country_flag: "images/about/flags/au.png"
-    address_line_one: "Flat 23 80 Anthony Circlet"
-    address_line_two: "Port Guiseppe, TAS 2691"
-  - city: "Berlin, Germany"
-    country_flag: "images/about/flags/germany.png"
-    address_line_one: "Jl Raya Dewi Sartika Ged"
-    address_line_two: "Harapan Masa, Br Germeny"
-  - city: "China, Wohan"
-    country_flag: "images/about/flags/china.png"
-    address_line_one: "1hao Wen Ti Huo Dong"
-    address_line_two: "Zhong Xin 1ceng Jian Xing"
+  - city: "Bengaluru, India"
+    country_flag: "images/about/flags/in.png"
+    address_line_one: "Jayanagar, Bengaluru"
+    address_line_two: "Karnataka, IN India"
 
 ---

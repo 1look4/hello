@@ -1,15 +1,16 @@
 ---
 # banner
 banner:
-  title: "Give a old laptop for the needy."
+  title: "Donate a old laptop."
   button: "Fill the form"
-  button_link: "https://docs.google.com/forms/d/e/1FAIpQLSfz4xE-2DDPGHBb35whbdrxfBwbc67nTzf-k3XnrBU7kXC6aA/viewform"
-  image: "images/banner-app.png"
+  button_link: "https://bit.ly/3yWBZBU"
+#  button_link: "https://docs.google.com/forms/d/e/1FAIpQLSfz4xE-2DDPGHBb35whbdrxfBwbc67nTzf-k3XnrBU7kXC6aA/viewform"
+#  image: "images/banner-app.png"
 
 
 # brands
 brands_carousel:
-  enable: true
+  enable: false
   brand_images:
   - "images/brands/01-colored.png"
   - "images/brands/02-colored.png"
@@ -26,7 +27,7 @@ brands_carousel:
 
 # features
 features:
-  enable: true
+  enable: false
   subtitle: "Features"
   title: "Elements to <br> get you started"
   description: "Collaborate."
@@ -56,21 +57,27 @@ features:
 
 # intro_video
 intro_video:   
-  enable: true
+  enable: false
   subtitle: "Short Intro Video"
   title: "Built exclusively for you"
   description: "An explainer video to show how to use laptop give away."
   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
   video_thumbnail: "images/video-popup.jpg"
 
+# checklist_giveaway
+intro_checklist:   
+  enable: false
+  subtitle: "Want to donate a old laptop"
+  title: "Built exclusively for you"
+  description: "Please check out the below definitions and conditions for donating a laptop. <br>The laptop should be in working condition.."
 
 # how_it_works
 how_it_works:   
   enable: true
   block:  
-  - subtitle: "Our Programs"
-    title: "Check out our latest programs."
-    description: "Our programs gallery"
+  - subtitle: "Checklist"
+    title: "Laptops to be in working conditions"
+    description: "Check the below list to make sure the laptop is in all working and near to good condition."
     image: "images/features-02.png"
 
   - subtitle: "Give it a go"
@@ -118,5 +125,6 @@ testimonials:
     name: "David Cameron"
     designation: "CEO, Nexuspay"
     image: "images/user-img/10-i.jpg"
+
 
 ---

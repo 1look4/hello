@@ -6,7 +6,7 @@ logo = "images/logo.png"
 # use `x` with logo_width, example: "100x"
 logo_width = "240x"
 # logo text will only show when logo is missing.
-logo_text = "Giveitago"
+logo_text = "Hello"
 # OpenGraph / Twitter Card metadata
 description = "Laptop Give Away is a place to donate a laptop to the needy."
 author = "Giveitago"
@@ -16,16 +16,16 @@ image = "images/logo.png"                # this image will be used as fallback i
 footer_info = "Laptop Give Away is a place to donate a laptop to the needy."
 
 # contact form action
-contact_form_action = "https://formspree.io/f/xgernlzd" # contact form works with https://formspree.io
+contact_form_action = "#" # contact form works with https://formspree.io
 
 # copyright
-copyright = "&copy; Laptop Give Away"
+copyright = "&copy; Donate a laptop."
 
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+# custom script on header, example: custom_script= "<script>console.log(\"Donate a laptop\")</script>" 
 custom_script = ""
 
 # buy premium popup
-buy_premium_popup = true
+on_first_popup = false
 
 # Main Sections
 mainSections = ["blog"]
@@ -37,7 +37,7 @@ reading_time = true
 [contact_info]
 address = "#155, Bengaluru, <br>Karnataka."
 phone = ["+091-123-456-78"]
-email = ["contactus@laptopgiveaway"]
+email = ["contactus@DonateALaptop"]
 
 # imaging processing
 [imaging]
@@ -53,7 +53,7 @@ preloader = "images/favicon.png" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Fill the form"
-link = "https://docs.google.com/forms/d/e/1FAIpQLSfz4xE-2DDPGHBb35whbdrxfBwbc67nTzf-k3XnrBU7kXC6aA/viewform"
+link = "https://bit.ly/3yWBZBU"
 
 # cookies
 [cookies]
@@ -64,11 +64,12 @@ button = "I Accept"
 
 # call-to-action
 [cta]
-enable = true
+enable = false
 title = "Fill the form"
 content = "For any unused electronic asset you have, please contribute to the social cause, by donating it to the needy, there by reducing ewaste."
 button = "Apply"
-button_link = "https://docs.google.com/forms/d/e/1FAIpQLSfz4xE-2DDPGHBb35whbdrxfBwbc67nTzf-k3XnrBU7kXC6aA/viewform"
+#button_link = "https://docs.google.com/forms/d/e/1FAIpQLSfz4xE-2DDPGHBb35whbdrxfBwbc67nTzf-k3XnrBU7kXC6aA/viewform"
+button_link = "https://bit.ly/3yWBZBU"
 
 ############################# social site ########################
 [[social]]
